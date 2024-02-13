@@ -1,2 +1,40 @@
 /*CSS file for World Para Powerlifting Moodle*/
 /*Mainly edited by Dave Foord*/
+
+/*Displays content in 2 side by side divs*/
+/*create as many items within it by using <div class = "sidebysideitem   */
+/*Specify the width of the items in percent by adding .p25 etc class to div*/
+.sidebysidecontainer {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.sidebysideitem {
+    padding: 5px;
+}
+
+.p10 {flex: 0 0 10%;}
+
+.p25 {flex: 0 0 25%;}
+
+.p33 {flex: 0 0 33%;}
+
+.p50 {flex: 0 0 50%;}
+
+.p75 {flex: 0 0 75%;}
+
+/*If screensize is less than 1200px, and the the first container is intially set as 25%, this gets increased to 50%*/
+@media screen and (max-width:1200px) {
+   .p25 {flex: 0 0 50%;}
+}
+
+/*If screensize is less than 900px, the first container is shown full width to force other items to wrap onto new line*/
+@media screen and (max-width:900px) {
+  .sidebysidecontainer {flex-wrap: wrap;}
+  .sidebysideitem:first-child {flex-basis: 100%;}
+  .sidebysideitem:last-child {margin: auto;}
+}
+
+/*End of side by side container*/
