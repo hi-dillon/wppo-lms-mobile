@@ -11,18 +11,11 @@
     align-items: center;
 }
 
-.sidebysideitem {
-    padding: 5px;
-}
-
+.sidebysideitem {padding: 5px;}
 .p10 {flex: 0 0 10%;}
-
 .p25 {flex: 0 0 25%;}
-
 .p33 {flex: 0 0 33%;}
-
 .p50 {flex: 0 0 50%;}
-
 .p75 {flex: 0 0 75%;}
 
 /*If screensize is less than 1200px, and the the first container is intially set as 25%, this gets increased to 50%*/
