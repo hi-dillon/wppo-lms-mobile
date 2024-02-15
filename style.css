@@ -1,6 +1,11 @@
 /*CSS file for World Para Powerlifting Moodle*/
 /*Mainly edited by Dave Foord*/
 
+/*Changes the colour of hyperlinks*/
+ore-format-text a {
+    color: #AF272F;
+}
+
 /*Changes the appearance of headings that appear within questions, within things like quizzes, and the front page cards*/
 .sc-ion-label-md-s h1, .sc-ion-label-ios-s h1{
     margin-bottom: 0.5rem;
