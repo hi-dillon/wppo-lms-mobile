@@ -1,13 +1,46 @@
 /*CSS file for World Para Powerlifting Moodle*/
 /*Mainly edited by Dave Foord*/
 
-h4, .h4 {
-    font-size: 1.40625rem;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+/*Changes the appearance of headings that appear within questions, within things like quizzes, and the front page cards*/
+.sc-ion-label-md-s h1, .sc-ion-label-ios-s h1{
     margin-bottom: 0.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    line-height: 1.2;
+}
+.sc-ion-label-md-s h2, .sc-ion-label-ios-s h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h3, .sc-ion-label-ios-s h3{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h4, .sc-ion-label-ios-s h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h5, .sc-ion-label-ios-s h5{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/*Changes the font size for paragraph text to 1 rem, and adds a margin below it.*/
+.sc-ion-label-md-s p, .sc-ion-label-ios-s p {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+
+/*Removes the underlining from hyperlinks*/
+.core-anchor, core-format-text a {
+    text-decoration: none;
+}
+
+/*adds a margin below tables*/
+table {
+   margin-bottom: 0.5rem; 
 }
 
 /*Displays content in 2 side by side divs*/
