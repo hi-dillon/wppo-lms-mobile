@@ -95,9 +95,10 @@ table {
     Background-color: #f7f7f7;
 }
 
-/*sets a max height for the svg images appearing at the top of the cards*/
+/*sets a max and min height for the svg images appearing at the top of the cards, this overrides the auto height behaviour which caused them to be hidden*/
 article.WPPO_Card img {
-    max-height: 80px;
+    max-height: 100px;
+    min-height: 60px;
 }
 
 .WPPO_Card .core-adapted-img-container {
