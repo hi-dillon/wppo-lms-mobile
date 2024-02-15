@@ -95,6 +95,15 @@ table {
     Background-color: #f7f7f7;
 }
 
+/*sets a max height for the svg images appearing at the top of the cards*/
+article.WPPO_Card img {
+    max-height: 80px;
+}
+
+.WPPO_Card core-format-text .core-adapted-img-container {
+    margin: auto;
+}
+
 @media screen and (min-width: 40em) {
     .WPPO_Card {
         max-width: calc(50% -  1em);
@@ -115,9 +124,6 @@ table {
    margin-bottom: 10px;
 }
 
-/*sets a max height for the svg images appearing at the top of the cards*/
-article.WPPO_Card img {
-    max-height: 80px;
-}
+
 
 /*End of card mechanism*/
