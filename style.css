@@ -87,11 +87,11 @@ table {
     flex-direction: column;
     box-sizing: border-box;
     margin: 1rem .25em;
-    padding: 0.7rem
+    padding: 0.7rem;
     border-color: #d7dfe3;
     border-style: solid;
     border-width: 2px;
-    border-radius: 5%;
+    border-radius: 1rem;
     Background-color: #f7f7f7;
 }
 
