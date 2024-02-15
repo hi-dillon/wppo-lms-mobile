@@ -2,7 +2,7 @@
 /*Mainly edited by Dave Foord*/
 
 /*Changes the colour of hyperlinks*/
-ore-format-text a {
+core-format-text a {
     color: #AF272F;
 }
 
