@@ -100,7 +100,7 @@ article.WPPO_Card img {
     max-height: 80px;
 }
 
-.WPPO_Card core-format-text .core-adapted-img-container {
+.WPPO_Card .core-adapted-img-container {
     margin: auto;
 }
 
